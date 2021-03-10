@@ -11,6 +11,7 @@ namespace IsPalindrome
 
         public static bool IsPalindrome(string s)
         {
+
             var array = s.ToCharArray();
             for (int i = 0, j = array.Length - 1; i < j;)
             {
